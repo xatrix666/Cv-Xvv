@@ -12,7 +12,7 @@ export default function Hero() {
         className="relative z-10 max-w-3xl mx-auto text-center"
       >
         <img
-          src="/avatar.png"
+          src="/xavi.png"
           alt="Xavier Vallès Vicedo"
           className="mx-auto w-36 h-36 rounded-full border-4 border-cyan-400 shadow-2xl mb-4 bg-white/30 backdrop-blur"
         />
