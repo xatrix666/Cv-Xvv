@@ -12,9 +12,9 @@ export default function Hero() {
         className="relative z-10 max-w-3xl mx-auto text-center"
       >
         <img
-          src="/xavi.png"
+          src={`${import.meta.env.BASE_URL}xavi.png`}
           alt="Xavier Vallès Vicedo"
-          className="mx-auto w-36 h-36 rounded-full border-4 border-cyan-400 shadow-2xl mb-4 bg-white/30 backdrop-blur"
+          className="mx-auto w-40 h-40 rounded-full border-4 border-cyan-500 shadow-lg bg-white/60 backdrop-blur-lg"
         />
         <h1 className="text-5xl font-extrabold tracking-tight drop-shadow-lg">Xavier Vallès Vicedo</h1>
         <p className="text-2xl mt-3 font-light text-cyan-100 drop-shadow">Backend & Fullstack Developer · .NET · React · SQL · Azure</p>
